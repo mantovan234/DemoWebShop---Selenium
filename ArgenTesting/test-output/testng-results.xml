@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-18T17:53:30Z" name="Default suite" finished-at="2020-09-18T17:54:17Z" duration-ms="46678">
+    <groups>
+      <group name="Apparel &amp; Shoes">
+        <method signature="ControladorPositivo.flujoDeCompra()[pri:0, instance:tests.ControladorPositivo@43599640]" name="flujoDeCompra" class="tests.ControladorPositivo"/>
+        <method signature="ControladorPositivo.login()[pri:0, instance:tests.ControladorPositivo@43599640]" name="login" class="tests.ControladorPositivo"/>
+      </group> <!-- Apparel & Shoes -->
+    </groups>
+    <test started-at="2020-09-18T17:53:30Z" name="Default test" finished-at="2020-09-18T17:54:17Z" duration-ms="46678">
+      <class name="tests.ControladorPositivo">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:tests.ControladorPositivo@43599640]" started-at="2020-09-18T14:53:30Z" name="beforeMethod" finished-at="2020-09-18T14:53:36Z" duration-ms="5482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ControladorPositivo.flujoDeCompra()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@74a6f9c1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="flujoDeCompra()[pri:0, instance:tests.ControladorPositivo@43599640]" started-at="2020-09-18T14:53:36Z" name="flujoDeCompra" finished-at="2020-09-18T14:54:05Z" duration-ms="29727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flujoDeCompra -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ControladorPositivo@43599640]" started-at="2020-09-18T14:54:05Z" name="afterMethod" finished-at="2020-09-18T14:54:06Z" duration-ms="752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flujoDeCompra status=SUCCESS method=ControladorPositivo.flujoDeCompra()[pri:0, instance:tests.ControladorPositivo@43599640] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:tests.ControladorPositivo@43599640]" started-at="2020-09-18T14:54:06Z" name="beforeMethod" finished-at="2020-09-18T14:54:11Z" duration-ms="5115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ControladorPositivo.login()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@74a6f9c1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login()[pri:0, instance:tests.ControladorPositivo@43599640]" started-at="2020-09-18T14:54:11Z" name="login" description="Test de Logueo" finished-at="2020-09-18T14:54:16Z" duration-ms="4894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ControladorPositivo@43599640]" started-at="2020-09-18T14:54:16Z" name="afterMethod" finished-at="2020-09-18T14:54:17Z" duration-ms="698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=ControladorPositivo.login()[pri:0, instance:tests.ControladorPositivo@43599640] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.ControladorPositivo@43599640]" started-at="2020-09-18T14:54:17Z" name="afterClass" finished-at="2020-09-18T14:54:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:tests.ControladorPositivo@43599640]" started-at="2020-09-18T14:54:17Z" name="afterTest" finished-at="2020-09-18T14:54:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74a6f9c1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.ControladorPositivo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
